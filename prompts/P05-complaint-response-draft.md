@@ -62,6 +62,7 @@ Escalation triggered if unresolved (P07)
 Complaint received → P04 (triage) → [P05 RUNS] → Draft response generated
                                           → Staff reviews → Response sent
                                           → If unresolved → P07 escalation
+                                          
 **❗ Problem Being Solved**
 
 Guest relations staff spend 5–10 minutes per complaint drafting personalised responses.
@@ -99,6 +100,7 @@ Reduced negative reviews
 Stronger brand consistency
 
 **⚠️ Risks and Limitations**
+
 | Risk                                        | Level  | Mitigation                                            |
 | ------------------------------------------- | ------ | ----------------------------------------------------- |
 | Over-apologising or inappropriate tone      | Medium | Tone constraints + staff review                       |
