@@ -1,5 +1,6 @@
-🏨 P01 · Pre-arrival personalised welcome email (Luxury Hotel – Melbourne)
-📌 Prompt Text (v1.2 — current)
+**🏨 P01 · Pre-arrival personalised welcome email (Luxury Hotel – Melbourne)**
+
+**📌 Prompt Text (v1.2 — current)**
 
 Copy this exactly into your AI tool. Replace all [PLACEHOLDERS] before running.
 
@@ -25,7 +26,9 @@ Include the following sections:
 Tone: warm, refined, and professional — aligned with luxury hospitality standards.  
 Length: maximum 180 words.  
 Do not include: pricing details, internal notes, or operational instructions.
-📊 Placeholders to fill
+
+**📊 Placeholders to fill**
+
 | Placeholder          | Source                   | Example          |
 | -------------------- | ------------------------ | ---------------- |
 | `[GUEST_NAME]`       | Booking system (PMS)     | Mr. Nguyen       |
@@ -35,33 +38,33 @@ Do not include: pricing details, internal notes, or operational instructions.
 | `[PURPOSE]`          | Booking notes / inferred | Anniversary      |
 | `[SPECIAL_REQUESTS]` | Guest notes              | Late check-in    |
 
-🏢 Intended Workflow or Task
+**🏢 Intended Workflow or Task**
 
 This prompt is Step 1 of the pre-arrival guest communication workflow.
 
-Trigger: Booking confirmed in Property Management System (PMS)
-Actor: Guest Experience / Front Office team reviews and sends email
-Timing: 48–72 hours before guest arrival
+- Trigger: Booking confirmed in Property Management System (PMS)
+- Actor: Guest Experience / Front Office team reviews and sends email
+- Timing: 48–72 hours before guest arrival
+
 Next step: Follow-up concierge interaction (P02 — personalised itinerary or service upsell)
+
 Booking confirmed → [P01 RUNS] → Staff reviews → Email sent to guest
                                           → Guest replies / concierge engagement
                                           → P02 triggered (if needed)
-❗ Problem Being Solved
 
-Front office staff spend approximately 10–15 minutes per guest drafting personalised pre-arrival emails.
-
-In a 5-star hotel with ~120 arrivals per week:
-
-This equates to 20–30 hours of manual email drafting per week
+**❗ Problem Being Solved**
+- Front office staff spend approximately 10–15 minutes per guest drafting personalised pre-arrival emails.
+- In a 5-star hotel with ~120 arrivals per week:
+- This equates to 20–30 hours of manual email drafting per week
 
 Key pain points:
+- Inconsistent tone across staff (not always aligned with luxury brand standards)
+- Missed opportunities for upselling services (transport, dining, concierge)
+- Delayed communication → reduced guest satisfaction before arrival
 
-Inconsistent tone across staff (not always aligned with luxury brand standards)
-Missed opportunities for upselling services (transport, dining, concierge)
-Delayed communication → reduced guest satisfaction before arrival
-⚡ Automation Potential
+**⚡ Automation Potential**
 
-Level: High
+**Level: High**
 
 | Dimension               | Assessment                                               |
 | ----------------------- | -------------------------------------------------------- |
@@ -71,15 +74,16 @@ Level: High
 | Integration possibility | Can be triggered automatically via PMS + CRM integration |
 | Estimated time saving   | ~80% (15 min → 3 min review time)                        |
 
-Human-in-the-loop role:
+**Human-in-the-loop role:**
 Staff verify guest details and tone alignment before sending. No full rewrite required at v1.2.
 
-Business impact:
+**Business impact:**
+- Improves response consistency
+- Enhances guest experience pre-arrival
+- Increases likelihood of upselling concierge services
 
-Improves response consistency
-Enhances guest experience pre-arrival
-Increases likelihood of upselling concierge services
-⚠️ Risks and Limitations
+**⚠️ Risks and Limitations**
+
 | Risk                                                          | Level  | Mitigation                                                                      |
 | ------------------------------------------------------------- | ------ | ------------------------------------------------------------------------------- |
 | Over-personalisation based on incorrect or missing guest data | Medium | Validate PMS fields before prompt runs; fallback to neutral phrasing if missing |
@@ -90,55 +94,55 @@ Increases likelihood of upselling concierge services
 Overall risk rating: LOW–MEDIUM
 → Suitable for near-full automation with light human review.
 
-🔄 Version History
-v1.0 — Initial draft
+**🔄 Version History**
+**v1.0 — Initial draft**
 
-Prompt:
+- Prompt:
 Write a welcome email for a hotel guest before arrival.
 
-Output:
+- Output:
 Generic, lacked personalisation, no structure, inconsistent tone
 
-Observed effect:
+- Observed effect:
 Required full rewrite → no time saving
 
-Lesson learned:
+- Lesson learned:
 Need role definition + structured sections + guest context
 
-v1.1 — Added role and structure
+**v1.1 — Added role and structure**
 
-Change:
+- Change:
 
 Added role (“guest experience manager”)
 Added structured sections
 
-Output:
+- Output:
 Improved clarity and tone, but sometimes too long (~250 words)
 
-Observed effect:
+- Observed effect:
 Edit time reduced to ~6–8 minutes
 
-Lesson learned:
+- Lesson learned:
 Need word limit + constraints
 
-v1.2 — Added constraints and personalisation logic ✅ Current
+**v1.2 — Added constraints and personalisation logic ✅ Current**
 
-Change:
+- Change:
 
 Added 180-word limit
 Added personalised recommendation section
 Added exclusions
 
-Output:
+- Output:
 Consistent, luxury-level tone, mostly send-ready
 
-Observed effect:
+- Observed effect:
 Edit time reduced to ~2–3 minutes
 
-Lesson learned:
+- Lesson learned:
 Constraints + contextual inputs = production-ready outputs
 
-📊 A/B Test Results
+**📊 A/B Test Results**
 
 Sample: 10 guest bookings (mixed purposes)
 
@@ -149,9 +153,14 @@ Sample: 10 guest bookings (mixed purposes)
 | Send-ready without edit | 0/5    | 4/5     |
 | Average edit time       | 15 min | 2–3 min |
 
-🔗 Related Prompts
+**🔗 Related Prompts**
+
 Next: P02 — Personalised itinerary / concierge upsell
+
 Later chain:
+
 → Complaint handling
+
 → Service requests
+
 → Review response
