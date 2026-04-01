@@ -1,4 +1,5 @@
 **🏨 P06 · Incident report draft (Luxury Hotel – Melbourne)**
+
 **📌 Prompt Text (v1.1 - current)**
 
 Copy this exactly into your AI tool. Replace all [PLACEHOLDERS] before running.
@@ -58,6 +59,7 @@ Incident reported → Staff notes recorded → [P06 RUNS]
 - Risk of inaccurate or assumed information in reports
 
 **⚡ Automation Potential**
+
 **Level: Medium**
 
 | Dimension               | Assessment                                              |
@@ -89,6 +91,7 @@ Overall risk rating: HIGH
 → Never fully automated - requires strict human oversight
 
 **🔄 Version History**
+
 **v1.0 - Initial draft**
 
 - Prompt:
