@@ -42,13 +42,21 @@ Respond in JSON only. Do not include any explanation or text outside the JSON.
 This prompt is Step 1 of the complaint handling workflow, enabling automated triage and routing.
 
 Trigger: Guest submits complaint (app, email, or front desk)
+
 Integration: JSON output is parsed by CRM / hotel system
+
 Actor: Fully automated (with periodic audit)
+
 Timing: Immediate (real-time processing)
+
 Next step:
+
 Routed to correct department
+
 P05 (response draft) triggered
+
 If urgency = High → escalation (P07)
+
 Complaint received → [P04 RUNS] → JSON output → System routes issue
                                            → Department assigned
                                            → P05 triggered
