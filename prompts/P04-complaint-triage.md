@@ -27,10 +27,15 @@ Complaint text: [COMPLAINT_TEXT]
 Respond in JSON only. Do not include any explanation or text outside the JSON.
 
 {
+
   "category": "[chosen category]",
+  
   "urgency": "[Low / Medium / High]",
+  
   "summary": "[One concise sentence summarising the complaint]",
+  
   "reason": "[Why this category and urgency were chosen]"
+  
 }
 
 **📊 Placeholders to fill**
