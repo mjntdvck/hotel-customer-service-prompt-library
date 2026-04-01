@@ -33,6 +33,7 @@ Do not include:
 - Legal language
 - Internal investigation details
 **📊 Placeholders to fill**
+  
 | Placeholder    | Source          | Example                                    |
 | -------------- | --------------- | ------------------------------------------ |
 | `[GUEST_NAME]` | PMS             | Ms. Nguyen                                 |
