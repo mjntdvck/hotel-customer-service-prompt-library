@@ -47,7 +47,7 @@ hotel-customer-service-prompt-library/
     ├── audit-log.md
     ├── test-results-summary.md
     └── prompting-strategies.md
-```text
+```
 
 Library Summary Table
 | ID  | Prompt Name                     | Workflow         | Automation Level | Risk Level | Status         |
