@@ -1,4 +1,5 @@
 **🏨 P03 · Service request response (Luxury Hotel – Melbourne)**
+
 **📌 Prompt Text (v1.2 - current)**
 
 Copy this exactly into your AI tool. Replace all [PLACEHOLDERS] before running.
@@ -30,6 +31,7 @@ If urgency is High:
 Do not include: internal processes, staff names, or operational details.
 
 **📊 Placeholders to fill**
+
 | Placeholder         | Source               | Example                  |
 | ------------------- | -------------------- | ------------------------ |
 | `[GUEST_NAME]`      | PMS                  | Mr. Smith                |
@@ -41,26 +43,25 @@ Do not include: internal processes, staff names, or operational details.
 
 This prompt is part of the in-stay guest service workflow, handling real-time guest requests.
 
-Trigger: Guest submits a request (phone, app, or front desk)
-Actor: Front desk or guest service agent reviews and sends response
-Timing: Immediate (within minutes of request)
+- Trigger: Guest submits a request (phone, app, or front desk)
+- Actor: Front desk or guest service agent reviews and sends response
+- Timing: Immediate (within minutes of request)
 Next step: Service fulfilled → guest satisfaction checked → escalation if unresolved (P07)
+
 Guest request received → [P03 RUNS] → Staff reviews → Response sent
                                            → Service fulfilled
                                            → If issue persists → P07 triggered
+
 **❗ Problem Being Solved**
-
-Front desk staff spend **3–5 minutes per request** drafting responses, especially during peak hours.
-
-In a 5-star hotel handling **~150 requests per day**:
-
-This equates to **7.5–12.5 hours of communication workload daily**
+- Front desk staff spend **3–5 minutes per request** drafting responses, especially during peak hours.
+- In a 5-star hotel handling **~150 requests per day**:
+- This equates to **7.5–12.5 hours of communication workload daily**
 
 Key pain points:
+- Inconsistent tone across staff members
+- Delays in response during busy periods
+- Lack of clarity in communication → repeated follow-ups
 
-Inconsistent tone across staff members
-Delays in response during busy periods
-Lack of clarity in communication → repeated follow-ups
 **⚡ Automation Potential**
 **Level: High**
 
@@ -76,12 +77,12 @@ Lack of clarity in communication → repeated follow-ups
 Staff verify accuracy (room number, request details) before sending.
 
 **Business impact:**
-
-Faster response times → improved guest satisfaction
-Reduced staff workload during peak periods
-Consistent luxury-standard communication
+- Faster response times → improved guest satisfaction
+- Reduced staff workload during peak periods
+- Consistent luxury-standard communication
 
 **⚠️ Risks and Limitations**
+
 | Risk                                             | Level  | Mitigation                          |
 | ------------------------------------------------ | ------ | ----------------------------------- |
 | Incorrect or unclear request details             | Medium | Staff verify inputs before sending  |
@@ -95,50 +96,50 @@ Overall risk rating: LOW–MEDIUM
 **🔄 Version History**
 **v1.0 - Initial draft**
 
-Prompt:
+- Prompt:
 Reply to a hotel guest request.
 
-Output:
+- Output:
 Too generic, no structure, inconsistent tone
 
-Observed effect:
+- Observed effect:
 Required significant rewriting → minimal time saving
 
-Lesson learned:
+- Lesson learned:
 Need role + structure + clear response components
 
 **v1.1 - Added structure and tone**
 
-Change:
+- Change:
 
 Added role (front desk associate)
 Defined required sections
 Introduced tone guidelines
 
-Output:
+- Output:
 More consistent and usable, but sometimes too long or vague
 
-Observed effect:
+- Observed effect:
 Edit time reduced to ~3 minutes
 
-Lesson learned:
+- Lesson learned:
 Need length constraint and urgency handling
 
 **v1.2 - Added constraints and urgency logic ✅ Current**
 
-Change:
+- Change:
 
 Added 120-word limit
 Added urgency-specific instructions
 Clarified response structure
 
-Output:
+- Output:
 Consistent, concise, and appropriate for guest communication
 
-Observed effect:
+- Observed effect:
 Edit time reduced to ~1–2 minutes
 
-Lesson learned:
+- Lesson learned:
 Explicit constraints + urgency logic = reliable real-time responses
 
 **📊 A/B Test Results**
@@ -153,8 +154,13 @@ Sample: 10 guest requests (mixed urgency levels)
 | Need for editing | High  | Low   |
 
 **🔗 Related Prompts**
+
 Previous: P02 - Concierge upsell itinerary
+
 Next: P07 - Escalation summary (if issue unresolved)
+
 Related:
+
 → P04 - Complaint triage
+
 → P05 - Complaint response draft
