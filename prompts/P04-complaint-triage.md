@@ -168,6 +168,9 @@ Sample: 30 hotel complaints (mixed types)
 
 **🔗 Related Prompts**
 Next in chain: P05 - Complaint response draft
+
 Escalation: P07 - Escalation summary
+
 Related:
+
 → P03 - Service request response
