@@ -1,4 +1,5 @@
 **🏨 P05 · Complaint response draft (Luxury Hotel – Melbourne)**
+
 **📌 Prompt Text (v1.2 - current)**
 
 Copy this exactly into your AI tool. Replace all [PLACEHOLDERS] before running.
@@ -45,19 +46,13 @@ Do not include:
 **🏢 Intended Workflow or Task**
 
 This prompt is Step 2 of the complaint handling workflow, following P04 (triage).
-
 - Trigger: Complaint classified and prioritised by P04
-
 - Actor: Guest relations team reviews and sends response
-
 - Timing: Within minutes of complaint receipt
 
 Next step:
-
 - Issue resolved
-
 - Follow-up if needed
-
 - Escalation triggered if unresolved (P07)
 
 **Complaint received → P04 (triage) → [P05 RUNS] → Draft response generated
@@ -65,12 +60,9 @@ Next step:
                                           → If unresolved → P07 escalation**
                                           
 **❗ Problem Being Solved**
-
-Guest relations staff spend 5–10 minutes per complaint drafting personalised responses.
-
-In a 5-star hotel handling ~80 complaints per day:
-
-This results in 6–13 hours of communication workload daily
+- Guest relations staff spend 5–10 minutes per complaint drafting personalised responses.
+- In a 5-star hotel handling ~80 complaints per day:
+- This results in 6–13 hours of communication workload daily
 
 **Key pain points:**
 - Inconsistent tone across staff (risk to brand image)
