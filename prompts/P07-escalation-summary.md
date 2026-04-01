@@ -1,4 +1,5 @@
 **🏨 P07 · Escalation summary for management (Luxury Hotel – Melbourne)**
+
 **📌 Prompt Text (v1.2 - current)**
 
 Copy this exactly into your AI tool. Replace all [PLACEHOLDERS] before running.
