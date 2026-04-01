@@ -1,12 +1,19 @@
 # 📚 Prompt Library — Hotel Customer Service
 
-> **Assessment 1 | AI for Business**  
+> **Assessment 1 | AI for Business**
+
 > Student: Minh Duc Do
-> student ID: 22221084  
-> Business Field: Hotel Customer Service  
-> Organisation Type: 5-star luxury hotel in Melbourne  
+
+> student ID: 22221084
+
+> Business Field: Hotel Customer Service
+
+> Organisation Type: 5-star luxury hotel in Melbourne
+
 > Model tested on: GPT-5/Chatgpt
+
 > Last updated: 01/04/2026
+
 ## What This Library Does
 
 This prompt library supports workflow automation in hotel customer service for a 5-star luxury hotel in Melbourne. It contains 10 documented, tested, and iterated prompts organised by guest journey stage and service function.
@@ -20,7 +27,7 @@ Each prompt entry includes:
 - version history and testing notes
 
 ## Folder Structure
-```text
+```
 hotel-customer-service-prompt-library/
 │
 ├── README.md
