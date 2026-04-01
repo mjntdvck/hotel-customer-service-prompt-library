@@ -50,5 +50,5 @@ Guest request received
 
 | File | Prompt | Status |
 |------|--------|--------|
-| P03-service-request-response.md | Service request response | ✅ Tested - v1.2 |
-| P08-special-request-handling.md | Special request / late check-out handling | ✅ Tested - v1.2 |
+| [P03-service-request-response.md](https://github.com/mjntdvck/hotel-customer-service-prompt-library/blob/main/prompts/P03-service-request-response.md) | Service request response | ✅ Tested - v1.2 |
+| [P08-special-request-handling.md](https://github.com/mjntdvck/hotel-customer-service-prompt-library/blob/main/prompts/P08-late-checkout-or-special-request.md) | Special request / late check-out handling | ✅ Tested - v1.2 |
