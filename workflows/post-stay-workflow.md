@@ -47,5 +47,5 @@ Guest check-out
 
 | File | Prompt | Status |
 |------|--------|--------|
-| P09-review-response.md | Guest review response | ✅ Tested - v1.2 |
-| P10-loyalty-followup.md | Loyalty follow-up email | ✅ Tested - v1.2 |
+| [P09-review-response.md](https://github.com/mjntdvck/hotel-customer-service-prompt-library/blob/main/prompts/P09-review-response.md) | Guest review response | ✅ Tested - v1.2 |
+| [P10-loyalty-followup.md](https://github.com/mjntdvck/hotel-customer-service-prompt-library/blob/main/prompts/P10-loyalty-followup.md) | Loyalty follow-up email | ✅ Tested - v1.2 |
