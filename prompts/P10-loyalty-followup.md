@@ -60,6 +60,7 @@ Guest check-out → P09 (review response, if applicable)
                → [P10 RUNS] → Email drafted
                               → Staff reviews → Email sent
                               → Guest retention / repeat booking
+                              
 **❗ Problem Being Solved**
 - Guest relations teams spend 5–10 minutes per guest drafting personalised follow-up emails.
 - In a luxury hotel with ~150 departures per week:
