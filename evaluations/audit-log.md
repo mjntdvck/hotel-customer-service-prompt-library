@@ -6,7 +6,7 @@
 |---------------|------------|----------------|---------------|
 | v1.0 | Basic prompt without role or structure | Output generic, inconsistent tone, required full rewrite | Need role definition and structured sections |
 | v1.1 | Added role (guest experience manager) and structured sections | Improved tone and clarity, but output too long (~250 words) | Need constraints (word limit) for production-ready output |
-| v1.2 | Added 180-word limit and exclusions | Consistent, send-ready output, edit time reduced to ~2–3 min | Constraints + context = reliable outputs |
+| v1.2 | Added 180-word limit and exclusions | Consistent, send-ready output, edit time reduced to ~2-3 min | Constraints + context = reliable outputs |
 
 ---
 
@@ -26,7 +26,7 @@
 |---------------|------------|----------------|---------------|
 | v1.0 | Basic reply prompt | Generic responses, inconsistent tone | Need structured response format |
 | v1.1 | Added structured sections and tone guidance | More usable but sometimes verbose | Need length constraint |
-| v1.2 | Added 120-word limit and urgency logic | Fast, consistent responses, edit time ~1–2 min | Constraints + urgency handling improve reliability |
+| v1.2 | Added 120-word limit and urgency logic | Fast, consistent responses, edit time ~1-2 min | Constraints + urgency handling improve reliability |
 
 ---
 
