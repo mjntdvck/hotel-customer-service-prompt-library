@@ -1,6 +1,6 @@
 **🏨 P01 · Pre-arrival personalised welcome email (Luxury Hotel – Melbourne)**
 
-**📌 Prompt Text (v1.2 — current)**
+**📌 Prompt Text (v1.2 - current)**
 
 Copy this exactly into your AI tool. Replace all [PLACEHOLDERS] before running.
 
@@ -23,7 +23,7 @@ Include the following sections:
 5. One personalised recommendation based on guest purpose (e.g. fine dining, local attractions)
 6. Offer of assistance before arrival (contact concierge team)
 
-Tone: warm, refined, and professional — aligned with luxury hospitality standards.  
+Tone: warm, refined, and professional - aligned with luxury hospitality standards.  
 Length: maximum 180 words.  
 Do not include: pricing details, internal notes, or operational instructions.
 
@@ -46,7 +46,7 @@ This prompt is Step 1 of the pre-arrival guest communication workflow.
 - Actor: Guest Experience / Front Office team reviews and sends email
 - Timing: 48–72 hours before guest arrival
 
-Next step: Follow-up concierge interaction (P02 — personalised itinerary or service upsell)
+Next step: Follow-up concierge interaction (P02 - personalised itinerary or service upsell)
 
 Booking confirmed → [P01 RUNS] → Staff reviews → Email sent to guest
                                           → Guest replies / concierge engagement
@@ -68,9 +68,9 @@ Key pain points:
 
 | Dimension               | Assessment                                               |
 | ----------------------- | -------------------------------------------------------- |
-| Repetitiveness          | High — similar structure across all bookings             |
+| Repetitiveness          | High - similar structure across all bookings             |
 | Data availability       | All inputs available in PMS                              |
-| Human judgment needed   | Low — mainly tone and personalization check              |
+| Human judgment needed   | Low - mainly tone and personalization check              |
 | Integration possibility | Can be triggered automatically via PMS + CRM integration |
 | Estimated time saving   | ~80% (15 min → 3 min review time)                        |
 
@@ -95,7 +95,7 @@ Overall risk rating: LOW–MEDIUM
 → Suitable for near-full automation with light human review.
 
 **🔄 Version History**
-**v1.0 — Initial draft**
+**v1.0 - Initial draft**
 
 - Prompt:
 Write a welcome email for a hotel guest before arrival.
@@ -109,7 +109,7 @@ Required full rewrite → no time saving
 - Lesson learned:
 Need role definition + structured sections + guest context
 
-**v1.1 — Added role and structure**
+**v1.1 - Added role and structure**
 
 - Change:
 
@@ -125,7 +125,7 @@ Edit time reduced to ~6–8 minutes
 - Lesson learned:
 Need word limit + constraints
 
-**v1.2 — Added constraints and personalisation logic ✅ Current**
+**v1.2 - Added constraints and personalisation logic ✅ Current**
 
 - Change:
 
@@ -155,7 +155,7 @@ Sample: 10 guest bookings (mixed purposes)
 
 **🔗 Related Prompts**
 
-Next: P02 — Personalised itinerary / concierge upsell
+Next: P02 - Personalised itinerary / concierge upsell
 
 Later chain:
 
