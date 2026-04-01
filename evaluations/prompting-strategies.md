@@ -6,7 +6,7 @@ Each strategy is selected based on the nature of the workflow (customer-facing, 
 
 ---
 
-## 1. RACE Framework (Role – Action – Context – Expectation)
+## 1. RACE Framework (Role - Action - Context - Expectation)
 
 **Prompts:** P01, P02, P03, P05, P09, P10  
 
@@ -32,7 +32,7 @@ Customer-facing communication requires consistent tone, structure, and professio
 **Prompts:** All prompts  
 
 All prompts include explicit constraints such as:
-- Word limits (e.g. 120–180 words)
+- Word limits (e.g. 120-180 words)
 - Required sections (e.g. apology, acknowledgement, next steps)
 - Tone instructions (e.g. “refined”, “empathetic”, “not sales-heavy”)
 
