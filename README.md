@@ -20,6 +20,32 @@ Each prompt entry includes:
 - version history and testing notes
 
 ## Folder Structure
+hotel-customer-service-prompt-library/
+│
+├── README.md
+│
+├── workflows/
+│   ├── workflow-overview.md
+│   ├── pre-arrival-workflow.md
+│   ├── guest-service-workflow.md
+│   └── post-stay-workflow.md
+│
+├── prompts/
+│   ├── P01-pre-arrival-welcome-email.md
+│   ├── P02-concierge-upsell-itinerary.md
+│   ├── P03-service-request-response.md
+│   ├── P04-complaint-triage.md
+│   ├── P05-complaint-response-draft.md
+│   ├── P06-incident-report.md
+│   ├── P07-escalation-summary.md
+│   ├── P08-late-checkout-or-special-request.md
+│   ├── P09-review-response.md
+│   └── P10-loyalty-followup.md
+│
+└── evaluations/
+    ├── audit-log.md
+    ├── test-results-summary.md
+    └── prompting-strategies.md
 
 Library Summary Table
 | ID  | Prompt Name                     | Workflow         | Automation Level | Risk Level | Status         |
