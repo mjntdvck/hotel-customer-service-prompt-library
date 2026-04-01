@@ -68,7 +68,7 @@ Incident → P06 (report) → [P07 RUNS]
 - In high-end hotels handling multiple escalations per week:
 - This leads to delays in decision-making
 
-Key pain points:
+**Key pain points:**
 - Inconsistent escalation summaries across managers
 - Missing critical information for decision-making
 - Slow response in high-risk situations
