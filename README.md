@@ -60,7 +60,7 @@ hotel-customer-service-prompt-library/
 
 | ID  | Prompt Name                     | Workflow         | Automation Level | Risk Level | Status         |
 | --- | ------------------------------- | ---------------- | ---------------- | ---------- | -------------- |
-| [P01(https://github.com/mjntdvck/hotel-customer-service-prompt-library/blob/main/prompts/P01-pre-arrival-welcome-email.md)] | Pre-arrival welcome email       | Pre-arrival      | High             | Low        | 🔄 Tested |
+| [P01](https://github.com/mjntdvck/hotel-customer-service-prompt-library/blob/main/prompts/P01-pre-arrival-welcome-email.md)] | Pre-arrival welcome email       | Pre-arrival      | High             | Low        | 🔄 Tested |
 | [P02](https://github.com/mjntdvck/hotel-customer-service-prompt-library/blob/main/prompts/P02-concierge-upsell-itinerary.md) | Concierge upsell itinerary      | Pre-arrival      | Medium           | Medium     | 🔄 Tested |
 | [P03](https://github.com/mjntdvck/hotel-customer-service-prompt-library/blob/main/prompts/P03-service-request-response.md) | Service request response        | In-stay service  | High             | Low        | 🔄 Tested |
 | [P04](https://github.com/mjntdvck/hotel-customer-service-prompt-library/blob/main/prompts/P04-complaint-triage.md) | Complaint triage                | Customer service | Very High        | Medium     | 🔄 Tested |
