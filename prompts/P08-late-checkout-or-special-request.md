@@ -1,6 +1,6 @@
 **🏨 P08 · Special request & late check-out handling (Luxury Hotel – Melbourne)**
 
-**📌 Prompt Text (v1.2 — current)**
+**📌 Prompt Text (v1.2 - current)**
 
 Copy this exactly into your AI tool. Replace all [PLACEHOLDERS] before running.
 
@@ -25,7 +25,7 @@ Your response must include:
 3. Any relevant next steps or timing
 4. A closing line offering further assistance
 
-Tone: warm, professional, and solution-oriented — aligned with luxury hospitality standards.  
+Tone: warm, professional, and solution-oriented - aligned with luxury hospitality standards.  
 Style: respectful and accommodating, even when declining.  
 Length: maximum 130 words.  
 
@@ -76,9 +76,9 @@ Guest request received → Availability checked → [P08 RUNS]
 
 | Dimension               | Assessment                                    |
 | ----------------------- | --------------------------------------------- |
-| Repetitiveness          | High — similar structure across requests      |
+| Repetitiveness          | High - similar structure across requests      |
 | Data availability       | Requires availability input                   |
-| Human judgment needed   | Medium — depends on context                   |
+| Human judgment needed   | Medium - depends on context                   |
 | Integration possibility | Can integrate with PMS and front desk systems |
 | Estimated time saving   | ~70–80% (5 min → 1–2 min review)              |
 
@@ -104,7 +104,7 @@ Overall risk rating: MEDIUM–HIGH
 
 **🔄 Version History**
 
-**v1.0 — Initial draft**
+**v1.0 - Initial draft**
 
 - Prompt:
 Respond to a guest request about late check-out.
@@ -118,7 +118,7 @@ Staff needed to rewrite responses
 - Lesson learned:
 Need structured logic based on availability
 
-**v1.1 — Added conditional logic**
+**v1.1 - Added conditional logic**
 
 - Change:
 
@@ -134,7 +134,7 @@ Edit time reduced to ~3 minutes
 - Lesson learned:
 Need concise output constraint
 
-**v1.2 — Added constraints and tone control ✅ Current**
+**v1.2 - Added constraints and tone control ✅ Current**
 
 - Change:
 
@@ -166,10 +166,10 @@ Sample: 12 guest requests (mixed availability scenarios)
 
 Related:
 
-→ P03 — Service request response
+→ P03 - Service request response
 
-→ P05 — Complaint response
+→ P05 - Complaint response
 
 Escalation:
 
-→ P07 — Escalation summary
+→ P07 - Escalation summary
