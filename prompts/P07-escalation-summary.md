@@ -107,7 +107,8 @@ Overall risk rating: HIGH
 → Cannot be fully automated - requires managerial oversight
 
 **🔄 Version History**
-v1.0 - Initial draft
+
+**v1.0 - Initial draft**
 
 - Prompt:
 Summarise this issue for management.
