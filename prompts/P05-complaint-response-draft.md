@@ -32,6 +32,7 @@ Do not include:
 - Blame toward staff or systems
 - Legal language
 - Internal investigation details
+
 **📊 Placeholders to fill**
   
 | Placeholder    | Source          | Example                                    |
