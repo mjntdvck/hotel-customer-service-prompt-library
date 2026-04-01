@@ -1,4 +1,4 @@
-# 📚 Prompt Library — Hotel Customer Service
+# 📚 Prompt Library - Hotel Customer Service
 
 > **Assessment 1 | AI for Business**
 
