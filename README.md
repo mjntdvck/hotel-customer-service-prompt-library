@@ -87,7 +87,7 @@ P09 (Review response) → P10 (Loyalty follow-up)
 **Prompting Strategies Used**
 | Strategy | Prompts | Why chosen |
 |----------|---------|------------|
-| RACE framework (Role–Action–Context–Evaluation) | P01, P02, P03, P05, P09, P10 | Ensures tone, task clarity, and production-ready outputs |
+| RACE framework (Role-Action-Context-Evaluation) | P01, P02, P03, P05, P09, P10 | Ensures tone, task clarity, and production-ready outputs |
 | Grounding constraint ("use only the provided information") | P06, P07 | Reduces hallucination in factual or sensitive service contexts |
 | JSON output format | P04 | Enables machine-readable complaint routing |
 | Word/format limits | All | Keeps outputs concise, brand-consistent, and ready for operational use |
