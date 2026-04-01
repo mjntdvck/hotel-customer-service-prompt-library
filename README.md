@@ -18,7 +18,7 @@
 
 This prompt library supports workflow automation in hotel customer service for a 5-star luxury hotel in Melbourne. It contains 10 documented, tested, and iterated prompts organised by guest journey stage and service function.
 
-Each prompt entry includes:
+**Each prompt entry includes:**
 - the exact prompt text
 - the workflow task it supports
 - the problem it solves
@@ -56,34 +56,35 @@ hotel-customer-service-prompt-library/
     └── prompting-strategies.md
 ```
 
-Library Summary Table
+**Library Summary Table**
+
 | ID  | Prompt Name                     | Workflow         | Automation Level | Risk Level | Status         |
 | --- | ------------------------------- | ---------------- | ---------------- | ---------- | -------------- |
-| P01 | Pre-arrival welcome email       | Pre-arrival      | High             | Low        | 🔄 In progress |
-| P02 | Concierge upsell itinerary      | Pre-arrival      | Medium           | Medium     | 🔄 In progress |
-| P03 | Service request response        | In-stay service  | High             | Low        | 🔄 In progress |
-| P04 | Complaint triage                | Customer service | Very High        | Medium     | 🔄 In progress |
-| P05 | Complaint response draft        | Customer service | High             | Medium     | 🔄 In progress |
-| P06 | Incident report                 | Operations       | Medium           | High       | 🔄 In progress |
-| P07 | Escalation summary              | Service recovery | Medium           | High       | 🔄 In progress |
-| P08 | Late checkout / special request | Guest service    | Medium           | Medium     | 🔄 In progress |
-| P09 | Review response                 | Post-stay        | High             | Medium     | 🔄 In progress |
-| P10 | Loyalty follow-up               | Post-stay        | High             | Low        | 🔄 In progress |
+| P01 | Pre-arrival welcome email       | Pre-arrival      | High             | Low        | 🔄 Tested |
+| P02 | Concierge upsell itinerary      | Pre-arrival      | Medium           | Medium     | 🔄 Tested |
+| P03 | Service request response        | In-stay service  | High             | Low        | 🔄 Tested |
+| P04 | Complaint triage                | Customer service | Very High        | Medium     | 🔄 Tested |
+| P05 | Complaint response draft        | Customer service | High             | Medium     | 🔄 Tested |
+| P06 | Incident report                 | Operations       | Medium           | High       | 🔄 Tested |
+| P07 | Escalation summary              | Service recovery | Medium           | High       | 🔄 Tested |
+| P08 | Late checkout / special request | Guest service    | Medium           | Medium     | 🔄 Tested |
+| P09 | Review response                 | Post-stay        | High             | Medium     | 🔄 Tested |
+| P10 | Loyalty follow-up               | Post-stay        | High             | Low        | 🔄 Tested |
 
-Prompt Chaining Map
-PRE-ARRIVAL CHAIN
+**Prompt Chaining Map**
+**PRE-ARRIVAL CHAIN**
 P01 (Pre-arrival welcome email) → P02 (Concierge upsell itinerary)
 
-IN-STAY SERVICE CHAIN
+**IN-STAY SERVICE CHAIN**
 P03 (Service request response) → P07 (Escalation summary if needed)
 
-CUSTOMER SERVICE CHAIN
+**CUSTOMER SERVICE CHAIN**
 P04 (Complaint triage) → P05 (Complaint response draft) → P07 (Escalation summary)
 
-POST-STAY CHAIN
+**POST-STAY CHAIN**
 P09 (Review response) → P10 (Loyalty follow-up)
 
-Prompting Strategies Used
+**Prompting Strategies Used**
 | Strategy | Prompts | Why chosen |
 |----------|---------|------------|
 | RACE framework (Role–Action–Context–Evaluation) | P01, P02, P03, P05, P09, P10 | Ensures tone, task clarity, and production-ready outputs |
@@ -92,6 +93,6 @@ Prompting Strategies Used
 | Word/format limits | All | Keeps outputs concise, brand-consistent, and ready for operational use |
 | Explicit exclusions | P01, P05, P09 | Prevents inclusion of pricing, sensitive data, or inappropriate wording |
 
-Iteration Evidence
+**Iteration Evidence**
 
 All prompt versions are saved in this repository. Commit history is used as the version log, and each prompt file includes its own version history.
