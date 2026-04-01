@@ -1,4 +1,5 @@
 **🏨 P04 · Complaint triage and classification (Luxury Hotel – Melbourne)**
+
 **📌 Prompt Text (v1.2 - current)**
 
 Copy this exactly into your AI tool. Replace all [PLACEHOLDERS] before running.
@@ -40,40 +41,29 @@ Respond in JSON only. Do not include any explanation or text outside the JSON.
 **🏢 Intended Workflow or Task**
 
 This prompt is Step 1 of the complaint handling workflow, enabling automated triage and routing.
-
-Trigger: Guest submits complaint (app, email, or front desk)
-
-Integration: JSON output is parsed by CRM / hotel system
-
-Actor: Fully automated (with periodic audit)
-
-Timing: Immediate (real-time processing)
+- Trigger: Guest submits complaint (app, email, or front desk)
+- Integration: JSON output is parsed by CRM / hotel system
+- Actor: Fully automated (with periodic audit)
+- Timing: Immediate (real-time processing)
 
 Next step:
-
-Routed to correct department
-
-P05 (response draft) triggered
-
-If urgency = High → escalation (P07)
+- Routed to correct department
+- P05 (response draft) triggered
+- If urgency = High → escalation (P07)
 
 Complaint received → [P04 RUNS] → JSON output → System routes issue
                                            → Department assigned
                                            → P05 triggered
                                            → If High → P07 escalation
 **❗ Problem Being Solved**
-
-Front desk or guest relations managers spend 2–4 minutes per complaint manually categorising and prioritising issues.
-
-In a 5-star hotel handling ~80 complaints per day:
-
-This results in 3–5 hours of triage work daily
+- Front desk or guest relations managers spend 2–4 minutes per complaint manually categorising and prioritising issues.
+- In a 5-star hotel handling ~80 complaints per day:
+- This results in 3–5 hours of triage work daily
 
 **Key pain points:**
-
-Inconsistent classification → wrong department routing
-Delays in handling urgent issues
-Lack of standardised urgency prioritisation
+- Inconsistent classification → wrong department routing
+- Delays in handling urgent issues
+- Lack of standardised urgency prioritisation
 
 **⚡ Automation Potential**
 **Level: Very High**
@@ -87,14 +77,14 @@ Lack of standardised urgency prioritisation
 | Estimated time saving   | ~90–95% (manual → near-instant)                |
 
 **Human-in-the-loop role:**
-Daily audit of “Other” category
-Immediate review of High urgency cases
+- Daily audit of “Other” category
+- Immediate review of High urgency cases
 
 **Business impact:**
-Faster response times
-Improved service recovery
-Reduced operational bottlenecks
-Higher guest satisfaction
+- Faster response times
+- Improved service recovery
+- Reduced operational bottlenecks
+- Higher guest satisfaction
 
 **⚠️ Risks and Limitations**
 | Risk                                          | Level    | Mitigation                                   |
@@ -108,51 +98,52 @@ Overall risk rating: MEDIUM–HIGH
 → Suitable for automation with governance and monitoring
 
 **🔄 Version History**
+
 **v1.0 - Initial draft**
 
-Prompt:
+- Prompt:
 Classify this hotel complaint and rate urgency.
 
-Output:
+- Output:
 Free-text response, inconsistent format, varied categories
 
-Observed effect:
+- Observed effect:
 Could not integrate with system → manual intervention required
 
-Lesson learned:
+- Lesson learned:
 Need structured output (JSON)
 
 **v1.1 - Added JSON output**
 
-Change:
+- Change:
 
-Enforced JSON format
+- Enforced JSON format
 Still allowed model to define its own categories
 
-Output:
+- Output:
 JSON format correct, but inconsistent categories (e.g. “cleaning issue”, “dirty room”)
 
-Observed effect:
+- Observed effect:
 Routing errors in system
 
-Lesson learned:
+- Lesson learned:
 Must constrain category list
 
 **v1.2 - Constrained categories + urgency rules ✅ Current**
 
-Change:
+- Change:
 
 Added fixed category list
 Defined urgency criteria
 Added summary field
 
-Output:
+- Output:
 Consistent, machine-readable, reliable classification
 
-Observed effect:
+- Observed effect:
 ~93–95% classification accuracy in test cases
 
-Lesson learned:
+- Lesson learned:
 Constraints + structured output = production-ready automation
 
 **📊 A/B Test Results**
