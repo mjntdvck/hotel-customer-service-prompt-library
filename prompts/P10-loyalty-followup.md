@@ -1,6 +1,6 @@
 **🏨 P10 · Loyalty follow-up & retention email (Luxury Hotel – Melbourne)**
 
-**📌 Prompt Text (v1.2 — current)**
+**📌 Prompt Text (v1.2 - current)**
 
 Copy this exactly into your AI tool. Replace all [PLACEHOLDERS] before running.
 
@@ -25,7 +25,7 @@ Your email must include:
 5. An invitation to return in the future
 6. A soft call-to-action (e.g. booking again, contacting directly)
 
-Tone: warm, refined, and relationship-focused — aligned with luxury hospitality standards.  
+Tone: warm, refined, and relationship-focused - aligned with luxury hospitality standards.  
 Style: personalised, not promotional or sales-heavy.  
 Length: maximum 180 words.  
 
@@ -77,9 +77,9 @@ Guest check-out → P09 (review response, if applicable)
 
 | Dimension               | Assessment                                      |
 | ----------------------- | ----------------------------------------------- |
-| Repetitiveness          | High — similar structure across guests          |
+| Repetitiveness          | High - similar structure across guests          |
 | Data availability       | Available from PMS and CRM                      |
-| Human judgment needed   | Low–Medium — mainly tone and personalisation    |
+| Human judgment needed   | Low–Medium - mainly tone and personalisation    |
 | Integration possibility | Can integrate with CRM/email automation systems |
 | Estimated time saving   | ~70–80% (10 min → 2–3 min review)               |
 
@@ -105,7 +105,7 @@ Overall risk rating: MEDIUM
 → Suitable for near-full automation with light human review
 
 **🔄 Version History**
-**v1.0 — Initial draft**
+**v1.0 - Initial draft**
 
 - Prompt:
 Write a follow-up email after a hotel stay.
@@ -119,7 +119,7 @@ Low engagement → not suitable for luxury brand
 - Lesson learned:
 Need structured personalisation and tone control
 
-**v1.1 — Added personalisation and structure**
+**v1.1 - Added personalisation and structure**
 
 - Change:
 
@@ -135,7 +135,7 @@ Edit time reduced to ~5 minutes
 - Lesson learned:
 Need tone refinement and constraints
 
-**v1.2 — Added constraints and tone control ✅ Current**
+**v1.2 - Added constraints and tone control ✅ Current**
 
 - Change:
 
@@ -165,10 +165,10 @@ Sample: 15 guest follow-up scenarios
 
 **🔗 Related Prompts**
 
-Previous: P09 — Review response
+Previous: P09 - Review response
 
 Related:
 
-→ P01 — Pre-arrival welcome email
+→ P01 - Pre-arrival welcome email
 
-→ P05 — Complaint response
+→ P05 - Complaint response
