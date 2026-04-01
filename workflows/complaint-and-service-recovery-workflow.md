@@ -1,4 +1,4 @@
-# 📂 03 — Complaint & Service Recovery Workflow
+# 📂 03 - Complaint & Service Recovery Workflow
 
 **Business function:** Guest Relations / Service Recovery  
 
@@ -51,6 +51,6 @@ Complaint received
 
 | File | Prompt | Status |
 |------|--------|--------|
-| P04-complaint-triage.md | Complaint triage and classification | ✅ Tested — v1.2 |
-| P05-complaint-response.md | Complaint response draft | ✅ Tested — v1.2 |
-| P07-escalation-summary.md | Escalation summary for management | ✅ Tested — v1.2 |
+| [P04-complaint-triage.md](https://github.com/mjntdvck/hotel-customer-service-prompt-library/blob/main/prompts/P04-complaint-triage.md) | Complaint triage and classification | ✅ Tested - v1.2 |
+| [P05-complaint-response.md](https://github.com/mjntdvck/hotel-customer-service-prompt-library/blob/main/prompts/P05-complaint-response-draft.md) | Complaint response draft | ✅ Tested - v1.2 |
+| [P07-escalation-summary.md](https://github.com/mjntdvck/hotel-customer-service-prompt-library/blob/main/prompts/P07-escalation-summary.md) | Escalation summary for management | ✅ Tested - v1.2 |
