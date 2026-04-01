@@ -60,16 +60,16 @@ hotel-customer-service-prompt-library/
 
 | ID  | Prompt Name                     | Workflow         | Automation Level | Risk Level | Status         |
 | --- | ------------------------------- | ---------------- | ---------------- | ---------- | -------------- |
-| [P01](https://github.com/mjntdvck/hotel-customer-service-prompt-library/blob/main/prompts/P01-pre-arrival-welcome-email.md)] | Pre-arrival welcome email       | Pre-arrival      | High             | Low        | 🔄 Tested |
-| [P02](https://github.com/mjntdvck/hotel-customer-service-prompt-library/blob/main/prompts/P02-concierge-upsell-itinerary.md) | Concierge upsell itinerary      | Pre-arrival      | Medium           | Medium     | 🔄 Tested |
-| [P03](https://github.com/mjntdvck/hotel-customer-service-prompt-library/blob/main/prompts/P03-service-request-response.md) | Service request response        | In-stay service  | High             | Low        | 🔄 Tested |
-| [P04](https://github.com/mjntdvck/hotel-customer-service-prompt-library/blob/main/prompts/P04-complaint-triage.md) | Complaint triage                | Customer service | Very High        | Medium     | 🔄 Tested |
-| [P05](https://github.com/mjntdvck/hotel-customer-service-prompt-library/blob/main/prompts/P05-complaint-response-draft.md) | Complaint response draft        | Customer service | High             | Medium     | 🔄 Tested |
-| [P06](https://github.com/mjntdvck/hotel-customer-service-prompt-library/blob/main/prompts/P06-incident-report.md) | Incident report                 | Operations       | Medium           | High       | 🔄 Tested |
-| [P07](https://github.com/mjntdvck/hotel-customer-service-prompt-library/blob/main/prompts/P07-escalation-summary.md) | Escalation summary              | Service recovery | Medium           | High       | 🔄 Tested |
-| [P08](https://github.com/mjntdvck/hotel-customer-service-prompt-library/blob/main/prompts/P08-late-checkout-or-special-request.md) | Late checkout / special request | Guest service    | Medium           | Medium     | 🔄 Tested |
-| [P09](https://github.com/mjntdvck/hotel-customer-service-prompt-library/blob/main/prompts/P09-review-response.md) | Review response                 | Post-stay        | High             | Medium     | 🔄 Tested |
-| [P10](https://github.com/mjntdvck/hotel-customer-service-prompt-library/blob/main/prompts/P10-loyalty-followup.md) | Loyalty follow-up               | Post-stay        | High             | Low        | 🔄 Tested |
+| [P01](https://github.com/mjntdvck/hotel-customer-service-prompt-library/blob/main/prompts/P01-pre-arrival-welcome-email.md)] | Pre-arrival welcome email       | Pre-arrival      | High             | Low        | ✅ Tested |
+| [P02](https://github.com/mjntdvck/hotel-customer-service-prompt-library/blob/main/prompts/P02-concierge-upsell-itinerary.md) | Concierge upsell itinerary      | Pre-arrival      | Medium           | Medium     | ✅ Tested |
+| [P03](https://github.com/mjntdvck/hotel-customer-service-prompt-library/blob/main/prompts/P03-service-request-response.md) | Service request response        | In-stay service  | High             | Low        | ✅ Tested |
+| [P04](https://github.com/mjntdvck/hotel-customer-service-prompt-library/blob/main/prompts/P04-complaint-triage.md) | Complaint triage                | Customer service | Very High        | Medium     | ✅ Tested |
+| [P05](https://github.com/mjntdvck/hotel-customer-service-prompt-library/blob/main/prompts/P05-complaint-response-draft.md) | Complaint response draft        | Customer service | High             | Medium     | ✅ Tested |
+| [P06](https://github.com/mjntdvck/hotel-customer-service-prompt-library/blob/main/prompts/P06-incident-report.md) | Incident report                 | Operations       | Medium           | High       | ✅ Tested |
+| [P07](https://github.com/mjntdvck/hotel-customer-service-prompt-library/blob/main/prompts/P07-escalation-summary.md) | Escalation summary              | Service recovery | Medium           | High       | ✅ Tested |
+| [P08](https://github.com/mjntdvck/hotel-customer-service-prompt-library/blob/main/prompts/P08-late-checkout-or-special-request.md) | Late checkout / special request | Guest service    | Medium           | Medium     | ✅ Tested |
+| [P09](https://github.com/mjntdvck/hotel-customer-service-prompt-library/blob/main/prompts/P09-review-response.md) | Review response                 | Post-stay        | High             | Medium     | ✅ Tested |
+| [P10](https://github.com/mjntdvck/hotel-customer-service-prompt-library/blob/main/prompts/P10-loyalty-followup.md) | Loyalty follow-up               | Post-stay        | High             | Low        | ✅ Tested |
 
 **Prompt Chaining Map**
 **PRE-ARRIVAL CHAIN**
