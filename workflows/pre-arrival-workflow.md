@@ -44,5 +44,5 @@ Booking confirmed in PMS
 
 | File | Prompt | Status |
 |------|--------|--------|
-| P01-pre-arrival-welcome-email.md | Pre-arrival welcome email | ✅ Tested - v1.2 |
+| [P01-pre-arrival-welcome-email.md](https://github.com/mjntdvck/hotel-customer-service-prompt-library/blob/main/prompts/P01-pre-arrival-welcome-email.md) | Pre-arrival welcome email | ✅ Tested - v1.2 |
 | P02-concierge-upsell-itinerary.md | Concierge upsell & itinerary | ✅ Tested - v1.2 |
