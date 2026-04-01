@@ -46,23 +46,23 @@ Do not include:
 
 This prompt is Step 2 of the complaint handling workflow, following P04 (triage).
 
-Trigger: Complaint classified and prioritised by P04
+- Trigger: Complaint classified and prioritised by P04
 
-Actor: Guest relations team reviews and sends response
+- Actor: Guest relations team reviews and sends response
 
-Timing: Within minutes of complaint receipt
+- Timing: Within minutes of complaint receipt
 
 Next step:
 
-Issue resolved
+- Issue resolved
 
-Follow-up if needed
+- Follow-up if needed
 
-Escalation triggered if unresolved (P07)
+- Escalation triggered if unresolved (P07)
 
-Complaint received → P04 (triage) → [P05 RUNS] → Draft response generated
+**Complaint received → P04 (triage) → [P05 RUNS] → Draft response generated
                                           → Staff reviews → Response sent
-                                          → If unresolved → P07 escalation
+                                          → If unresolved → P07 escalation**
                                           
 **❗ Problem Being Solved**
 
@@ -73,10 +73,9 @@ In a 5-star hotel handling ~80 complaints per day:
 This results in 6–13 hours of communication workload daily
 
 **Key pain points:**
-
-Inconsistent tone across staff (risk to brand image)
-Delayed responses → escalation of guest dissatisfaction
-Poorly worded responses leading to negative reviews
+- Inconsistent tone across staff (risk to brand image)
+- Delayed responses → escalation of guest dissatisfaction
+- Poorly worded responses leading to negative reviews
 
 **⚡ Automation Potential**
 
@@ -94,11 +93,10 @@ Poorly worded responses leading to negative reviews
 Guest relations staff review tone, accuracy, and appropriateness before sending.
 
 **Business impact:**
-
-Faster response times
-Improved service recovery
-Reduced negative reviews
-Stronger brand consistency
+- Faster response times
+- Improved service recovery
+- Reduced negative reviews
+- Stronger brand consistency
 
 **⚠️ Risks and Limitations**
 
@@ -118,46 +116,46 @@ Stronger brand consistency
 Prompt:
 Write a reply to a hotel complaint.
 
-Output:
+- Output:
 Generic, sometimes defensive tone, inconsistent structure
 
-Observed effect:
+- Observed effect:
 Required rewriting → limited time saving
 
-Lesson learned:
+- Lesson learned:
 Need structured response format + tone control
 
 **v1.1 - Added structure and tone guidelines**
 
-Change:
+- Change:
 
 Added apology + acknowledgement + reassurance structure
 Defined tone (empathetic, professional)
 
-Output:
+- Output:
 Improved quality, but sometimes too long or overly verbose
 
-Observed effect:
+- Observed effect:
 Edit time reduced to ~5 minutes
 
-Lesson learned:
+- Lesson learned:
 Need length constraint and urgency handling
 
 **v1.2 - Added constraints and urgency logic ✅ Current**
 
-Change:
+- Change:
 
 Added 150-word limit
 Added urgency-specific instructions
 Added exclusions (no blame, no legal language)
 
-Output:
+- Output:
 Consistent, professional, and brand-aligned responses
 
-Observed effect:
+- Observed effect:
 Edit time reduced to ~2–3 minutes
 
-Lesson learned:
+- Lesson learned:
 Explicit constraints ensure consistent service quality
 
 **📊 A/B Test Results**
